@@ -3,7 +3,7 @@ class ArrayTraversal
 {
     public static void main(String args[])
     {
-        int arr[] = {19,39,34,29,54,23,9};
+        int arr[] = {19,39,34,29,54,23};
         // for(int x : arr)
         // {
         //     System.out.println("X :"+ x);

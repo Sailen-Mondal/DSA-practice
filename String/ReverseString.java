@@ -7,7 +7,7 @@ public class ReverseString {
 
         for(int i = name.length()-1; i >= 0 ; i--)
         {
-            revName = revName + name.charAt(i);     //Space complixity is fucked!(New mememory for each iteration)
+            revName = revName + name.charAt(i);     //Space complixity is fucked!(New memory for each iteration)
         }
         System.out.println(revName);
     }
