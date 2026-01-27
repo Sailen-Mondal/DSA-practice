@@ -11,7 +11,26 @@ public class InvertedHalfPyramid {
             System.out.println();
         }
     }
+
+    public static void printRotatedInvertedHalfPyramid(int n)
+    {
+        for(int i = 1; i <= n; i++)
+        {
+            for(int j = 1; j <= n; j++)
+            {
+                if (j <= (n-i))
+                    System.out.print(" ");
+                else
+                    System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
-        printInvertedHalfPyramid(4);
+        int n = 4;
+        printInvertedHalfPyramid(n);
+        System.out.println("-------");
+        printRotatedInvertedHalfPyramid(n);
     }
 }
