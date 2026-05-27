@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Switch{
+public class Test{
 	public static void main(String args[]){
 
 		Scanner sc = new Scanner(System.in);
@@ -17,5 +17,6 @@ public class Switch{
 
 			default: System.out.println("Invalid Input!");
 		}
+		sc.close();
 	}
 }
