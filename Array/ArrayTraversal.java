@@ -1,4 +1,4 @@
-package Array;
+
 class ArrayTraversal 
 {
     public static void main(String args[])

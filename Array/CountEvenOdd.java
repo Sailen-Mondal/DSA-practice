@@ -1,4 +1,4 @@
-package Array;
+
 public class CountEvenOdd {
     public static void main(String args[])
     {

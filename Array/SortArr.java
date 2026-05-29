@@ -1,4 +1,4 @@
-package Array;
+
 public class SortArr {
     public static void main(String[] args) {
         int arr[] = {84,22,53,54,99,10};
