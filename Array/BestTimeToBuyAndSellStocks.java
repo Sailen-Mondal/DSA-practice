@@ -23,8 +23,8 @@ public class BestTimeToBuyAndSellStocks {       //Bruteforce Method
                 }
             }
         }
-        System.out.println("Profit: " + maxProfit);
-        System.out.println("Buy at Day: " + buyDay + "; Sell at day: " + sellDay);
+        System.out.println("Profit : " + maxProfit);
+        System.out.println("Buy at Day : " + buyDay + "; Sell at day: " + sellDay);
     }
     
     public static void main(String[] args) {

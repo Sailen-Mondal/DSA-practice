@@ -31,8 +31,8 @@ class ArrayTraversal
             temp += arr[i];
         }
             //printing Min-Max
-            System.out.println("Max: " + max);
-            System.out.println("Min: " + min);
+            System.out.println("Max : " + max);
+            System.out.println("Min : " + min);
             //printing Sum
             System.out.println("Sum of array is: "+ temp);
     }
