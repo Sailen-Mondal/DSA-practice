@@ -63,6 +63,32 @@ public class MostFrequentChar {
         return maxChar;
     }
 
+    //Method 3: Frequency Array (Best)
+    public char frequencyArray(String s){
+        int arr[] = new int[26];
+        for(int i = 0; i < s.length(); i++){
+            int ch = s.charAt(i);
+            int ctr = ch - 97;
+            arr[ctr] ++;
+        }
+
+        int max = arr[0];
+        int index = 0;
+
+        for(int i = 0; i < arr.length; i++){
+            int temp = arr[i];
+
+            if(temp > max){
+                max = temp;
+                index = i;
+            }
+                
+        }
+
+        return (char)(index + 97);
+    }
+
+
     public static void main(String[] args) {
 
         MostFrequentChar obj = new MostFrequentChar();
@@ -71,5 +97,7 @@ public class MostFrequentChar {
 
         System.out.println("Brute Force     : " + obj.frequencyOfChar1(str));
         System.out.println("Sort + Pointers : " + obj.frequencyOfChar2(str));
+        System.out.println(obj.frequencyArray(str));
+        //System.out.println('a' + 1);
     }
 }
