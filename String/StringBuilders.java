@@ -5,6 +5,8 @@ public class StringBuilders {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("A B C D E");
         System.out.println(sb);
+        String s = " ";
+        sb.length() ;
 
         int j = sb.length()-1;
 
@@ -17,6 +19,7 @@ public class StringBuilders {
             sb.setCharAt(j,front) ;
             j--;
             System.out.println(sb);
+            String str = s.substring(j, i-1);
         }
 
     }
