@@ -61,7 +61,7 @@ public class RecursionDemo{
 
 		//printNToOne(n);
 		//obj.printOneToN(i);
-        //obj.twoParam(i, n);
+        obj.twoParam(i, n);
         //obj.inOrder(n);
         System.out.println("Factorial: " + obj.fact(n));
         sc.close();;
