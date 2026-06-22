@@ -35,9 +35,9 @@ public class RecursionDemo{
         System.out.print("Enter i: ");
         int i = sc.nextInt();
 
-
-
 		printNToOne(n);
 		obj.printOneToN(i);
+        
+        sc.close();;
 	}
 }
